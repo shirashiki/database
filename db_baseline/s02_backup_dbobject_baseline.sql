@@ -32,7 +32,7 @@ and baseline_date = (select MAX(baseline_date) from DBobject_baseline)
 
 -- get a version in a specific date
 select * from DBobject_baseline
-where object_name = 'vw_master_invoice_summary'
+where object_name = 'clients_table'
 and baseline_date = '2010-06-03 12:05:59.737'
 
 -- object types being saved
